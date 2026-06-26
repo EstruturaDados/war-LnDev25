@@ -143,3 +143,95 @@ Cada nível foca em um conjunto de habilidades:
 🚀 **Boa sorte! Avance nos níveis e torne-se um mestre da programação estratégica!**
 
 > Equipe de Ensino – MateCheck
+
+
+# Jogo-War
+Trabalho da Faculdade ADS - War - 3 Níveis
+
+1.0 - Nível Novato
+# 🗺️ Projeto WAR Estruturado em C
+
+Bem-vindo ao **WAR Estruturado**, uma versão digital em linguagem C inspirada no clássico jogo de estratégia de tabuleiro. Este projeto foi desenvolvido como um desafio prático de programação para aplicar conceitos fundamentais e avançados de Estruturas de Dados e gerenciamento de memória.
+
+## 🎯 Objetivos do Projeto
+O desenvolvimento é dividido em três grandes níveis de complexidade, evoluindo a arquitetura do software a cada etapa:
+
+- **🟢 Nível Novato (Concluído):** Criação da base de dados dos territórios utilizando `structs`, laços de repetição e vetores estáticos, com leitura e formatação de dados via terminal.
+- **🔵 Nível Aventureiro (Em Desenvolvimento):** Implementação de alocação dinâmica de memória (`calloc`/`free`), manipulação de ponteiros, modularização de funções e simulação de batalhas com geração de dados aleatórios (`rand`).
+- **🟣 Nível Mestre (Planejado):** Refatoração completa com foco em boas práticas de design de software, *const correctness*, passagem de parâmetros por referência e um sistema de missões com condições de vitória.
+
+## 🛠️ Tecnologias Utilizadas
+* **Linguagem:** C
+* **Compilador:** GCC
+* **Ambiente:** GitHub Codespaces / Linux
+
+## 🚀 Como Executar
+
+1. Clone o repositório para a sua máquina local ou abra no GitHub Codespaces:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+2.0 - Nível Aventureiro
+
+# 🗺️ Projeto WAR Estruturado em C
+
+Bem-vindo ao **WAR Estruturado**, uma versão digital em linguagem C inspirada no clássico jogo de estratégia de tabuleiro. Este projeto foi desenvolvido como um desafio prático de programação para aplicar conceitos fundamentais e avançados de Estruturas de Dados e gerenciamento dinâmico de memória.
+
+## 🎯 Objetivos do Projeto e Status
+O desenvolvimento foi dividido em três grandes níveis de complexidade, evoluindo a arquitetura do software a cada etapa:
+
+- **🟢 Nível Novato (Concluído):** Criação da base de dados dos territórios utilizando `structs`, laços de repetição e I/O formatado.
+- **🔵 Nível Aventureiro (Concluído):** Implementação de alocação dinâmica de memória (`calloc`/`free`), manipulação de dados via ponteiros, e criação do motor de batalhas com geração de dados aleatórios (`rand`). Regras de conquista e transferência de tropas aplicadas em tempo real na memória.
+- **🟣 Nível Mestre (Em Desenvolvimento):** Refatoração completa com foco em boas práticas de design de software, modularização total e implementação de um sistema de missões secretas com condições de vitória.
+
+## 🛠️ Tecnologias e Funcionalidades
+* **Linguagem:** C
+* **Ambiente:** GitHub Codespaces / Compilador GCC
+* **Gerenciamento de Memória:** Transição de arrays estáticos para estruturas dinâmicas na Heap (prevenindo vazamentos com `free`).
+* **Lógica de Jogo:** Simulação de rolagem de dados atrelada ao relógio do sistema (`srand(time(NULL))`), com regras de combate, empate e tomada de territórios inimigos (`strcpy`).
+
+## 🚀 Como Executar
+
+1. Clone o repositório para a sua máquina local ou abra no GitHub Codespaces:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
+   gcc main.c -o war
+
+   ./war
+
+   -------------------------------------------------------------------------------------------------------------------------------
+
+3.0 - Nível Mestre
+
+# 🗺️ Projeto WAR Estruturado em C
+
+Bem-vindo ao **WAR Estruturado**, uma versão digital em linguagem C inspirada no clássico jogo de estratégia de tabuleiro. Este projeto foi desenvolvido como um desafio prático de programação para aplicar conceitos fundamentais e avançados de Estruturas de Dados e gerenciamento de memória.
+
+## 🎯 Níveis de Desenvolvimento (Status: 100% Concluído)
+O projeto foi construído evoluindo a arquitetura do software em três etapas:
+
+- **🟢 Nível Novato (Concluído):** Criação da base de dados dos territórios utilizando `structs`, laços de repetição e I/O formatado via terminal.
+- **🔵 Nível Aventureiro (Concluído):** Implementação de alocação dinâmica de memória (`calloc`/`free`), manipulação de ponteiros e criação do motor de batalhas com geração de dados aleatórios (`rand`). Regras de conquista e transferência de tropas aplicadas em tempo real.
+- **🟣 Nível Mestre (Concluído):** Refatoração completa com foco em boas práticas de engenharia de software. Implementação de modularização total, passagem de parâmetros por referência, manipulação avançada de strings (`strcmp`, `strcpy`) e um sistema dinâmico de missões secretas com avaliação de vitória.
+
+## 🛠️ Tecnologias e Conceitos Aplicados
+* **Linguagem:** C
+* **Ambiente:** GitHub Codespaces / Compilador GCC
+* **Gerenciamento de Memória:** Uso seguro da Heap (`malloc`, `calloc`) com limpeza rigorosa (`free`) para prevenir *memory leaks*.
+* **Modularização:** Separação de responsabilidades em funções específicas (`atacar`, `exibirMapa`, `atribuirMissao`, `verificarMissao`, `liberarMemoria`).
+* **Lógica de Jogo:** Simulação de rolagem de dados baseada no tempo do sistema (`srand(time(NULL))`), com regras matemáticas de combate, empate e ocupação de territórios inimigos.
+
+## 🚀 Como Executar
+
+1. Clone o repositório para a sua máquina local ou abra no GitHub Codespaces:
+   ```bash
+   git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
+   gcc main.c -o war
+
+   ./war
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
